@@ -1,6 +1,6 @@
 # root netlify.toml
 [build]
-  base = "app/"
+  base = "apps/"
   command = "yarn build"
   functions = "functions"
   publish = "public"
